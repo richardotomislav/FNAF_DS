@@ -1,5 +1,6 @@
-> [!IMPORTANT]
+> [!IMPORTANT] 
 > DISCLAIMER
+> 
 > **THIS IS A STUDENT PROJECT MADE AS A WAY TO LEARN THE NDS AND C++ PROGRAMMING. NO COPYRIGHT INFRINGMENT IS INTENDED, ALL RIGHTS BELONG TO SCOTT CAWTHON AND STEEL WOOL STUDIOS.**
 >
 > *If a legal entity wishes to this code to be removed, i'll take it down immediately.*
@@ -12,7 +13,7 @@
 ### Powered by devKitPro, a lot of nights, coffee and a ruined Christmas.
 
 >[!NOTE]
-
+>
 > A highly experimental, colledge assignement game, remake of Five Night's at Freddy's for the Nintendo DS with devKitPro
 >
 > Project done as a final college assignment for the subject: VJ1214 - VIDEO GAME CONSOLES AND DEVICES.
