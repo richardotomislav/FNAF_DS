@@ -38,3 +38,6 @@ Entrega_Final_Jesus_Jimenez_Montero.nds
 ai.txt
 
 build/
+
+*.elf
+*.nds
