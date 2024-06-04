@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+tiles.txt
+Entrega_Final_Jesus_Jimenez_Montero_stable.elf
+Entrega_Final_Jesus_Jimenez_Montero_stable.nds
+Entrega_Final_Jesus_Jimenez_Montero.elf
+Entrega_Final_Jesus_Jimenez_Montero.nds
+ai.txt
+
+build/
