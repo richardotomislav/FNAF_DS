@@ -27,7 +27,7 @@ INCLUDES	:=	include
 MUSIC       :=  maxmod_data
 
 GAME_TITLE     := FNAF 1 DS Remake
-GAME_SUBTITLE1 := built with devkitARM
+GAME_SUBTITLE1 := built with devkitPro
 GAME_SUBTITLE2 := made by JJM
 #---------------------------------------------------------------------------------
 # options for code generation
@@ -49,8 +49,8 @@ LDFLAGS	=	-specs=ds_arm9.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map)
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
 LIBS	:= -lmm9 -lnds9
- 
- 
+
+
 #---------------------------------------------------------------------------------
 # list of directories containing libraries, this must be the top level containing
 # include and lib
@@ -65,9 +65,9 @@ LIBDIRS	:=	$(LIBNDS)
 
 ifneq ($(BUILDDIR), $(CURDIR))
 #---------------------------------------------------------------------------------
- 
+
 export OUTPUT	:=	$(CURDIR)/$(TARGET)
- 
+
 export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
 					$(foreach dir,$(DATA),$(CURDIR)/$(dir)) \
 					$(foreach dir,$(GRAPHICS),$(CURDIR)/$(dir))
@@ -102,15 +102,15 @@ export OFILES_SOURCES := $(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(SFILES:.s=.o)
 export OFILES := $(PNGFILES:.png=.o) $(OFILES_BIN) $(OFILES_SOURCES)
 
 export HFILES := $(PNGFILES:.png=.h) $(addsuffix .h,$(subst .,_,$(BINFILES)))
- 
+
 export INCLUDE	:=	$(foreach dir,$(INCLUDES),-iquote $(CURDIR)/$(dir)) \
 					$(foreach dir,$(LIBDIRS),-I$(dir)/include) \
 					-I$(CURDIR)/$(BUILD)
- 
+
 export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
 
 .PHONY: $(BUILD) clean
- 
+
 #---------------------------------------------------------------------------------
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
@@ -119,12 +119,12 @@ $(BUILD):
 #---------------------------------------------------------------------------------
 clean:
 	@echo clean ...
-	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).nds 
- 
- 
+	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).nds
+
+
 #---------------------------------------------------------------------------------
 else
- 
+
 #---------------------------------------------------------------------------------
 # main targets
 #---------------------------------------------------------------------------------
@@ -154,7 +154,7 @@ soundbank.bin soundbank.h : $(AUDIOFILES)
 	@$(bin2o)
 
 
- 
+
 -include $(DEPSDIR)/*.d
 
 #---------------------------------------------------------------------------------------
