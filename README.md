@@ -5,12 +5,11 @@
 >
 > *If a legal entity wishes to this code to be removed, i'll take it down immediately.*
 
-
 ---
 
 # Five Night's at Freddy's - Nintendo DS edition
 
-### Powered by devKitPro, a lot of nights, coffee and a ruined Christmas.
+### Powered by devKitPro, a lot of nights, coffee and a ruined Christmas
 
 >[!NOTE]
 >
@@ -22,8 +21,21 @@ This is a very experimental clone of the videogame [Five Night's at Freddy's](ht
 
 I've opened the source code of my game so my colleages and other people can learn and improve from this code, as this was done by a very much beginner of C++.
 
+# Contents
 
-### Game Features
+- [Five Night's at Freddy's - Nintendo DS edition](#five-nights-at-freddys---nintendo-ds-edition)
+    - [Powered by devKitPro, a lot of nights, coffee and a ruined Christmas](#powered-by-devkitpro-a-lot-of-nights-coffee-and-a-ruined-christmas)
+- [Contents](#contents)
+      - [Game Features](#game-features)
+      - [Technical Features](#technical-features)
+    - [Using this repo and building](#using-this-repo-and-building)
+    - [Credits and assets used](#credits-and-assets-used)
+      - [Assets](#assets)
+    - [Aknowledgements](#aknowledgements)
+    - [License](#license)
+
+
+#### Game Features
 
 * Touch screen with D-PAD support. Doors and cameras are fully functional.
 * Five minutes of gameplay.
@@ -33,7 +45,7 @@ I've opened the source code of my game so my colleages and other people can lear
 * Battery levels and time change in real time.
 * Experience *zero* sounds and music.
 
-### Technical Features
+#### Technical Features
 
 * Custom renderer logic to handle a TON of images (nevernesters beware).
 * Mostly copied AI from the original game.
@@ -42,7 +54,7 @@ I've opened the source code of my game so my colleages and other people can lear
 * Includes a Makefile ready to be used to compile the game.
 
 
-## Using this repo and building
+### Using this repo and building
 
 1. Clone this repo with Github Desktop or cmd, or use the green button above, everything works.
 2. Download and install [devKitPro](https://devkitpro.org/) and a NDS emulator (WinDS Pro works fine, DesMume is good too).
@@ -55,9 +67,9 @@ I've opened the source code of my game so my colleages and other people can lear
 To make use of the debug functions of this code, you need the `no$gba debug version` of the emulator. You can find it [here](https://problemkaputt.de/gba.htm).
 
 
-## Credits and assets used
+### Credits and assets used
 
-### Assets
+#### Assets
 
 * Original camera images taken from:
   * [https://www.reddit.com/r/technicalFNaF/comments/7i6jss/mega_dump/](https://www.reddit.com/r/technicalFNaF/comments/7i6jss/mega_dump/)
@@ -73,3 +85,6 @@ To make use of the debug functions of this code, you need the `no$gba debug vers
 * *problemkapputt* for the `no$gba` emulator.
 * *Scott Cawthon* for the original game.
 * The UJI teachers for grading this project an 8.5 / 10.
+
+### License
+You are permited to read, modify and redistribute this code as long as you aknowledge the original author and the original game. This code is not intended to be used for commercial purposes, and is only a learning project.
