@@ -87,4 +87,4 @@ To make use of the debug functions of this code, you need the `no$gba debug vers
 * The UJI teachers for grading this project an 8.5 / 10.
 
 ### License
-You are permited to read, modify and redistribute this code as long as you aknowledge the original author and the original game. This code is not intended to be used for commercial purposes, and is only a learning project.
+You are permited to read, modify and redistribute this code as long as you aknowledge me, this reposity, the original author and the original game. This code is not intended to be used for commercial purposes, and is only a learning project.
