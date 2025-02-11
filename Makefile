@@ -28,7 +28,7 @@ MUSIC       :=  maxmod_data
 
 GAME_TITLE     := FNAF 1 DS Remake
 GAME_SUBTITLE1 := built with devkitPro
-GAME_SUBTITLE2 := made by JJM
+GAME_SUBTITLE2 := made by https://richardotomislav.com
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
