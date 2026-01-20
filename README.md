@@ -1,3 +1,6 @@
+> [!ERROR]
+> Due to recent changes to the devkipro (and probably something wrong when I uploaded the source code) the game is at non compilable state. Will give an error that it doesn't fit on the VRAM bank, due to one of the .s files being way too large. I'm not sure on how to compress it, or reconvert it to .s as I lost the original source code with the images. 
+
 > [!IMPORTANT] 
 > DISCLAIMER
 > 
